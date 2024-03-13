@@ -1,0 +1,9 @@
+type ProductDTO {
+   id: Int!
+   name: String
+   price: Float
+   stock: Int
+   frontPage: String
+   status: Int
+   createAt: String
+}

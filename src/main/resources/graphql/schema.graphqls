@@ -1,0 +1,6 @@
+#import "./restaurant/restautant.graphqls"
+
+type schema {
+   mutation: Mutation
+   query: Query
+}

@@ -1,0 +1,11 @@
+#import "./restaurant/entity/product.graphqls"
+
+type Query {
+   gProductById(productId: Int!) : ProductDTO
+}
+
+type Mutation {
+   cProduct(name: String, price: Float, stock: Int status: Int) : Int
+   uProduct(productId: Int!, name: String, price: Float, stock: Int, status: Int) : Int
+   dProduct(productId: Int!) : Int
+}	
